@@ -1,0 +1,124 @@
+#partnerships{
+    background-color: var(--blue-grey);
+    color:var(--white);
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:1em;
+    display:flex;
+    flex-direction: column;
+}
+
+#partnerships h3{
+    font-size:1.2em;
+    font-weight: 700;
+    margin-bottom:1em;
+}
+
+#partnerships p{
+    font-size:0.9em;
+    font-weight:300;
+}
+
+#partnerships .footer_logo_container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:1em;
+    border-bottom:1px solid var(--white);
+    margin-bottom:1em;
+}
+
+#partnerships .footer_logo{
+    width:70px;
+}
+
+#partnerships a{
+    border-bottom:1px solid var(--white);
+    width:fit-content;
+    padding-bottom:0.2em;
+
+}
+
+#partnerships form{
+    padding-top:2.5em;
+    padding-bottom:2.5em;
+}
+
+#partnerships form input{
+    width:100%;
+    color:var(--white);
+    font-size:0.9em;
+    background-color: var(--blue-grey);
+    border:none;
+    padding-bottom:0.5em;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-bottom:1px solid white;
+}
+
+#partnerships form input::placeholder{
+    color:var(--white);
+}
+
+#partnerships .social_logo{
+    filter:hue-rotate(45)
+}
+
+#partnerships form button{
+    width: 100%;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+#partnerships form input[type=radio], #partnerships form label {
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size:0.8em;
+}
+#partnerships form input[type=radio]{
+    margin-right: 1em;
+}
+
+
+.inline_nztc_logo{
+    height:30px;
+    vertical-align: middle;
+    padding-right:0.5em;
+    filter: brightness(50);
+}
+
+#partnerships > form > p{
+    font-weight:500;
+}
+
+@media screen and (min-width:1000px) {
+    .footer_logo_container{
+        justify-content: space-between;
+    }
+
+    .footer_logo{
+        border-right: 1px solid white;
+        padding-right:1em;
+    }
+
+    #partnerships .footer_logo_container{
+        flex-wrap:nowrap;
+        border-bottom:0px;
+        margin-top:1.5em;
+        margin-bottom:1.5em;
+    }
+
+    #partnerships .footer_logo{
+        flex:1;
+    }
+
+    #partnerships > p{
+        text-align:right;
+    }
+
+    #partnerships form button{
+        max-width:15em;
+    }
+}

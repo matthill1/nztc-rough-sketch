@@ -1,0 +1,17 @@
+#menu .hamburger-react{
+    color:white;
+    position: absolute !important;
+    top: 30px !important;
+    right: 26px !important;
+    
+}
+
+#menu span{
+    color:white;
+    cursor: pointer;
+    position: absolute;
+    top: 44px;
+    right: 70px;
+    font-weight:700;
+    text-transform: capitalize;
+}

@@ -1,0 +1,64 @@
+footer{
+    color: var(--blue-grey);
+    background-color:var(--white);
+    padding-top:1em;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+footer h3{
+    font-size:1.2em;
+    font-weight: 700;
+    margin-bottom:1em;
+}
+
+footer p, footer a{
+    font-size:0.7em;
+    font-weight:300;
+}
+
+.social_logo_container{
+    display:flex;
+    flex-direction: row;
+    flex-basis:100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:6%;
+    padding-right:6%;
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+.social_logo{
+    filter:hue-rotate(45);
+    height:23px;
+}
+
+@media screen and (min-width:1000px) {
+    .social_logo_container{
+        flex-basis:30%;
+        padding-top:0px;
+    }
+
+    a.mhide{
+        display:inline-block !important;
+        margin-left:2em;
+    }
+
+    .form_container{
+        display:flex;
+    }
+
+    #partnerships form button{
+        margin-bottom:0px;
+        margin-top:0px;
+    }
+
+    #partnerships > form > div > input[type=email]{ 
+        width: 30%;
+        margin-right: 10%;
+        margin-left:10%;
+    }
+}
