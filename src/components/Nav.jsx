@@ -64,10 +64,10 @@ export const Nav = () => {
               transition={{ duration: 0.5, delay: 0.1 + routes.length / 10 }}
               className="social_logo_container"
             >
-                <img className="social_logo" src={Linked_in}></img>
-                <img className="social_logo" src={Twitter}></img>
-                <img className="social_logo" src={Youtube}></img>
-                <img className="social_logo" src={Facebook}></img>
+                <a href="#"><img className="social_logo" src={Linked_in}></img></a>
+                <a href="#"><img className="social_logo" src={Twitter}></img></a>
+                <a href="#"><img className="social_logo" src={Youtube}></img></a>
+                <a href="#"><img className="social_logo" src={Facebook}></img></a>
             </motion.div>
           </motion.div>
         )}

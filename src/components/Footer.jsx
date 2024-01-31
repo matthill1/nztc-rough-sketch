@@ -11,10 +11,10 @@ function Footer() {
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
             <div class="social_logo_container"> 
-                <img className="social_logo" src={Linked_in}></img>
-                <img className="social_logo" src={Twitter}></img>
-                <img className="social_logo" src={Youtube}></img>
-                <img className="social_logo" src={Facebook}></img>
+                <a href="#"><img className="social_logo" src={Linked_in}></img></a>
+                <a href="#"><img className="social_logo" src={Twitter}></img></a>
+                <a href="#"><img className="social_logo" src={Youtube}></img></a>
+                <a href="#"><img className="social_logo" src={Facebook}></img></a>
             </div>
         </footer>
     )
