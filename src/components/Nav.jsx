@@ -4,7 +4,10 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { routes } from "../routes";
-
+import Facebook from '../assets/social_logos/facebook.svg'
+import Linked_in from '../assets/social_logos/linkedin.svg'
+import Twitter from '../assets/social_logos/twitter.svg'
+import Youtube from '../assets/social_logos/youtube.svg'
 import './Nav.css'
 
 export const Nav = () => {
@@ -50,9 +53,22 @@ export const Nav = () => {
                       {route.title}
                     </a>
                   </motion.li>
+                  
                 );
               })}
             </ul>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 + routes.length / 10 }}
+              className="social_logo_container"
+            >
+                <img className="social_logo" src={Linked_in}></img>
+                <img className="social_logo" src={Twitter}></img>
+                <img className="social_logo" src={Youtube}></img>
+                <img className="social_logo" src={Facebook}></img>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>

@@ -23,7 +23,7 @@
     opacity: 1;
     height: 100vh;
     padding-top:10em;
-    background: #3a4650;
+    background: #343e49;
     width: 35vw;
     min-width:fit-content;
     left: 65vw;
@@ -44,6 +44,14 @@
 
 #menu .menu_container .nav_item a{
     font-size:1.5em;
+}
+
+#menu .social_logo_container{
+    margin-top:3em;
+}
+
+#menu .social_logo_container img{
+    filter: contrast(0) brightness(100);
 }
 
 @media screen and (max-width:1000px){
