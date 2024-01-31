@@ -68,6 +68,12 @@
     color:var(--blue-grey);
 }
 
+#how-we-work .links img.download{
+    height:1.3em;
+    vertical-align: middle;
+    filter:contrast(0.1);
+}
+
 #how-we-work .links a:nth-of-type(2),#how-we-work .links a:nth-of-type(1){
     border-bottom:1px solid var(--blue-grey);
 }

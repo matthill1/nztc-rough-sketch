@@ -58,7 +58,7 @@ function HowWeWork() {
             <div class="links">
               <a href="#">Our Ambition</a>
               <a href="#">Technology Roadmap 2035</a>
-              <a href="#">Annual Report</a>
+              <a href="#">Annual Report <img src="/download.png" className='download'/></a>
             </div>
 
             </motion.div>
