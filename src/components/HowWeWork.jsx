@@ -40,22 +40,22 @@ function HowWeWork() {
             <h2>How We work</h2>
             <p>Working closely with industry to define technology challenges and develop the transformational projects to tackle them, 
               encapsulating our ethos of supporting and transitioning to a more diverse energy industry centred on the North Sea. </p>
-            <div class="stats">
-              <div class="stat">
+            <div className="stats">
+              <div className="stat">
                   <h3>£176M</h3>
                   <p>co-invested with industry</p>
               </div>
-              <div class="stat">
+              <div className="stat">
                   <h3>1,300+</h3>
                   <p>technologies screened</p>
               </div>
-              <div class="stat">
+              <div className="stat">
                   <h3>20</h3>
                   <p>technologies commercialised</p>
               </div>
             </div>
 
-            <div class="links">
+            <div className="links">
               <a href="#">Our Ambition</a>
               <a href="#">Technology Roadmap 2035</a>
               <a href="#">Annual Report <img src="/download.png" className='download'/></a>

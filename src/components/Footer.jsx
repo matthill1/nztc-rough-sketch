@@ -10,7 +10,7 @@ function Footer() {
             <p>©2021 Net Zero Technology Center</p>
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
-            <div class="social_logo_container"> 
+            <div className="social_logo_container"> 
                 <a href="#"><img className="social_logo" src={Linked_in}></img></a>
                 <a href="#"><img className="social_logo" src={Twitter}></img></a>
                 <a href="#"><img className="social_logo" src={Youtube}></img></a>

@@ -22,7 +22,7 @@ function Footer() {
         </div>
         <div> 
             <a>Looking to become a partner?</a>
-            <a class="mhide">More about partnerships</a>
+            <a className="mhide">More about partnerships</a>
         </div>
         <form>
             <h3><img className="inline_nztc_logo" src="/public/nztc_logo.png"/>Join the conversation</h3>
