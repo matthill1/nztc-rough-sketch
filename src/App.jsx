@@ -8,13 +8,12 @@ function App() {
 
 
   return (
-    <>
-    <StatsSection/>
-    {/*
+    <>    
     <Hero/>
+    <StatsSection/>
+
     <Partnerships/>
     <Footer/>
-*/}
     </>
   )
 }
