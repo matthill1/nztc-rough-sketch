@@ -2,7 +2,7 @@ import './Hero.css'
 import { Nav } from "./Nav";
 import  NZTC_logo  from '../assets/NZTC_title.png'
 
-function Footer() {
+function Hero() {
     return (
         
         <div id="hero"> 
@@ -17,4 +17,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Hero
